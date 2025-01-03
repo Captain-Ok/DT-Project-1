@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playpen+Sans:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+p, .content{
+    font-family: 'Playpen Sans';
+}
+.lst, h1{
+    font-family: "Lora", serif;
+}
+
+.leftsidediv{
+    transform: translateX(-220px);
+    transition: all ease .7s;  
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);
+    background-color: white;      
+}
+.leftsidediv:hover{
+    transform: translateX(0px);    
+}
+
+.rightsidediv{
+    transform: translateX(1220px);
+    transition: all ease .7s;  
+    box-shadow: -.002em 0 1em rgb(190, 186, 186);
+    background-color: white;      
+} 
+.rightsidediv:hover{
+    transform: translateX(900px);
+}
+
+.maincontainer .contain {
+    box-shadow: 0px 2px 5px 0px #0000006b;
+    height: 550px;
+    width: 470px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contain .head {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+}
+
+.contain .discription {
+    width: 410px;
+    font-size: 16px;
+    font-family: "Playpen Sans";
+}
+
+#subBoxex .sub {
+    border-radius: 10px;
+    height: 90px;
+    width: 180px;
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);
+}
+
+#box3 {
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);
+}
+
+.Btnbtn {
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 140px;
+}
+
+#in{
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);   
+    outline: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+}
+#in2{
+    box-shadow: -.002em 0 .5em rgb(190, 186, 186);   
+    outline: none;
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;   
+}
+
+.texteditor {
+    border: 1px solid rgba(158, 156, 156, 0.589);
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thread {
+    border: 1px solid rgba(158, 156, 156, 0.589);
+}

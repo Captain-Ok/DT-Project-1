@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="min-w-[1092px] h-[250vh] overflow-x-hidden">
+
+    <!-- Navigation bar -->
+    <div class="navbar w-full bg-neutral-100 h-[80px] shadow-lg flex justify-between">
+
+        <!-- logo -->
+        <div class="logo h-full w-[300px] grid place-items-center">
+            <img src="src/logo.svg" alt="">
+        </div>
+
+        <!-- Right nav -->
+        <div class="h-full w-[500px] flex gap-7 justify-center items-center">
+
+            <img src="src/home.svg" alt="">
+            <img src="src/settings.svg" alt="">
+            <img src="src/notification.svg" alt="">
+
+        </div>
+
+    </div>
+
+    <!-- Left side Div -->
+    <div class="leftsidediv absolute h-[100vh] w-[350px] rounded-r-lg">
+        <h1 class="bg-black text-white h-[50px] rounded-tr-lg p-3">Journey Board</h1>
+        <div id="list" class=" p-5 flex justify-center items-center gap-5 flex-col">
+            <li class="font-semibold lst">Explore the world of management</li>
+            <ul class="list-decimal">
+                <li>Technical Project Management</li>
+                <li>Threadbuild</li>
+                <li>Structure your pointers</li>
+                <li>4SA Method</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right Side Div -->
+    <div class="rightsidediv absolute top-[100px] h-[60vh] w-[450px] rounded-l-[30px] flex">
+        <div class="bg-black text-white h-full w-[50px] rounded-l-[30px] p-3 flex flex-col justify-center items-center">
+
+            <div class="notice flex flex-col">
+                <span>N</span>
+                <span>o</span>
+                <span>t</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+            </div>
+
+            <br>
+
+            <div class="board flex flex-col ">
+                <span>B</span>
+                <span>o</span>
+                <span>a</span>
+                <span>r</span>
+                <span>d</span>
+            </div>
+
+        </div>
+
+        <div class="txt h-full w-[400px] grid place-items-center">
+            <div class="main"><h1 class="text-[28px] font-bold">No Notice till Now</h1></div>
+        </div>
+    </div>
+
+    <!-- Center Items -->
+    <div class="flex justify-center items-center max-w-[100vw]">
+        <div class="container flex flex-col justify-center items-center gap-16 w-[90%]">
+
+            <!-- heading -->
+            <div class="heading flex justify-between w-[75vw] mt-4">
+                <h1 class="font-bold text-blue-600 text-[33px]">Technical Project Management</h1>
+                <button class="bg-blue-600 w-[110px] h-[40px] rounded-xl text-white">Submit Task</button>
+            </div>
+
+            <!-- text box -->
+            <div class="box rounded w-[75vw] h-[130px] bg-gray-200 flex flex-col justify-center items-center">
+                <div class="textin w-[70vw]">
+                    <h1 class=" h font-bold text-[21px]">Explore the world of management</h1>
+                    <p class="text-[16px] mt-2">As a project manager you play an important role in leading project
+                        through
+                        initiation, planning, execution, monitoring, controlling and completion, How? Do you want to
+                        mange
+                        each and every step of your life</p>
+                </div>
+            </div>
+
+            <!-- text containers -->
+            <div class="maincontainer w-[80vw] flex gap-16 flex-wrap justify-center items-center">
+                <!-- first container -->
+                <div id="first" class="contain">
+                    <h1 class="head rounded-t-[11px]">Technical project
+                        Management</h1>
+
+                    <div id="discribe" class="w-full grid place-items-center">
+                        <span class=" discription"><strong>Description: </strong>Story of Alignment Scope of
+                            Agility Specific Accountable Staggering Approach</span>
+                    </div>
+
+                    <div class="video w-full">
+                        <iframe width="470px" height="250px"
+                            src="https://www.youtube.com/embed/TiMRwri1xJ8?si=B8VyskhcguYL5Hyn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- second container -->
+                <div id="second" class="contain">
+                    <h1 class="head rounded-t-[11px]">Threadbuild</h1>
+
+                    <div class="w-full grid place-items-center">
+                        <span class="discription"><strong>Description: </strong>Watch the video and threadbuil,
+                            and jot out key thereads while wathing the video.</span>
+                    </div>
+
+                    <span class="w-full bg-orange-50 h-[40px] grid place-items-center"><strong>Thread A</strong></span>
+
+
+                    <div class="bottom flex flex-col gap-5 items-center justify-center">
+                        <!-- subBoxes -->
+                        <div id="subBoxex" class="flex items-center justify-center gap-6">
+
+                            <div id="box1" class="sub">
+                                <h1 class="p-1 bg-gray-100 rounded-t-[11px] text-[13px]">Sub thread 1</h1>
+                                <input class=" p-1 outline-none rounded-t-[11px] text-[13px] w-full h-[30px]  "
+                                    placeholder="Enter text here">
+                            </div>
+
+                            <div id="box2" class="sub">
+                                <h1 class="p-1 bg-gray-100 rounded-t-[11px] text-[13px]">Sub interpretation 1</h1>
+                                <input class=" p-1 outline-none rounded-t-[11px] text-[13px] w-full h-[30px]  "
+                                    placeholder="Enter text here">
+                            </div>
+                        </div>
+
+                        <!-- Btns -->
+                        <div class="btns h-[40px] w-[99%] flex justify-around items-center">
+
+                            <img src="src/btns.svg" alt="">
+
+                            <button class="Btnbtn">select cotag <img class="h-[15px]" src="src/down.svg"
+                                    alt=""></button>
+
+                            <button class="Btnbtn">select process <img class="h-[15px]" src="src/down.svg"
+                                    alt=""></button>
+                        </div>
+
+                        <!-- Sub thread btn -->
+                        <div id="butn" class="w-[90%]">
+                            <button class="bg-blue-700 h-[35px] w-[100px] text-white rounded-[10px] text-[15px]">+
+                                Sub-thread</button>
+                        </div>
+
+                        <!-- Summery box -->
+                        <div id="box3" class="sub1 w-[90%] h-[90px] rounded-[10px]">
+                            <h1 class="p-1 bg-gray-100 rounded-t-[11px] text-[13px]">Summery for thread A</h1>
+                            <input class=" p-1 outline-none rounded-t-[11px] text-[13px] w-full h-[30px]  "
+                                placeholder="Enter text here">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- third container -->
+                <div id="third" class="contain">
+                    <h1 class="head rounded-t-[11px] ">Structure your
+                        Pointers</h1>
+
+                    <div id="discribe" class="w-full grid place-items-center">
+                        <span class="discription"><strong>Description: </strong>Write a 300 - 400 word article from your
+                            thread Publish you understanding and showcase your understanding to write the entire
+                            world.</span>
+                    </div>
+
+                    <div class="texteditor rounded-b-[11px] flex flex-col justify-center items-center">
+                        <h1 class="w-[350px] font-semibold">Title</h1>
+                        <input id="in" type="text">
+                        <h1 class="w-[350px] font-semibold">Content</h1>
+                        <input id="in2"  type="text">                                                
+                    </div>
+                </div>
+
+                <!-- fourth container -->
+                <div id="fourth" class="contain">
+                    <h1 class="head rounded-t-[11px]">4SA Method</h1>
+
+                    <div id="discribe" class="w-full h-[70px] grid place-items-center">
+                        <span class="discription"><strong>Description: </strong>To explore mode read more.</span>
+                    </div>
+
+                    <div class="texteditor h-[390px] w-full rounded-b-[11px]">
+
+                        <div id="introduction"
+                            class="w-[400px] h-[50px] bg-gray-200 p-1 flex items-center gap-4 text-[18px] font-semibold">
+                            <img src="src/uparrow.svg" alt=""> Introduction
+                        </div>
+
+                        <div class="content h-[70px]">The 4SA Method , How to bring a idea into progress ?
+                        </div>
+
+                        <div class="thread flex gap-4 font-semibold  items-center w-[400px] h-[50px]"> <img
+                                src="src/uparrow.svg" alt="">Thread A
+                        </div>
+
+                        <div class="content w-[400px] text-[15px]">How are you going to develop your stratergy ? Which method
+                            are you going
+                            to use to develop a stratergy ? What if the project is lengthy?</div>
+
+
+                        <div class="thread flex gap-4 font-semibold  items-center w-[400px] h-[50px]"> <img
+                                src="src/uparrow.svg" alt="">Example 1
+                        </div>
+                        You have a concept , How will you put into progress?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
